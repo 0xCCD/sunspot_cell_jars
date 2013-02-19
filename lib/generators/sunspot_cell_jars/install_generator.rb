@@ -8,7 +8,7 @@ module SunspotCellJars
       def install_sunspot_cell_jars
         if File.exists?('solr')
 
-          Dir.mkdir("solr/lib") unless File.exists?("solr/lib")
+          Dir.mkdir("solr/collection1/lib") unless File.exists?("solr/collection1/lib")
 
           files = %w{apache-mime4j-core-0.7.2.jar
             apache-mime4j-dom-0.7.2.jar
